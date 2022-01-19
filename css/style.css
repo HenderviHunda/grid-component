@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.caja{
+    border-radius: 10px;
+    width: 50%;
+    background: rgba(241, 241, 240, 0.548);
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.198);
+}
+
+
+.title{
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.title h1{
+    color: rgb(66, 246, 222);
+    margin-left: 2rem;
+}
+
+.title h3{
+    color: rgb(107, 202, 11);
+    margin-left: 2rem;
+}
+
+.title p{
+    color: rgba(154, 161, 148, 0.829);
+    padding: 0 6rem;
+}
+
+.two{
+    display: flex;
+    width: 100%;
+    text-align: left;
+
+}
+
+.money{
+    width: 200%;
+    background: rgb(26, 170, 155);
+    color: white;
+    padding: 25px;
+    border-radius: 0 0 0 10px;
+}
+
+.money h2{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.money h4{
+    margin: 0;
+    font-size: 30px;
+}
+
+.money span{
+    font-size: 15px;
+    color: rgba(233, 227, 227, 0.808);
+}
+
+.money p{
+    margin: 0;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: yellowgreen;
+    margin: 20px 10px 5px 10px;
+    border-radius: 10px;
+    padding: 0%;
+    box-shadow: 4px 9px 10px rgb(15, 114, 104);
+}
+
+
+.bottom h5{
+    color: white;
+    padding: 0;
+}
+
+.about{
+    background: rgb(0, 187, 168);
+    width: 200%;
+    color: white;
+    padding: 5px;
+    border-radius: 0 0 10px 0;
+}
+
+.about h2{
+    margin-left: 25px;
+}
+
+.about p{
+ margin: 0 10px 5px 25px;
+ font-size: 12px;
+}
+
+@media (max-width: 400px){
+    .caja{
+        width: 90%;
+    }
+
+    .title p{
+        width: 75%;
+        padding: 3px;
+        margin-left: 28px;
+        font-size: 20px;
+    }
+
+    .two{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .money{
+        width: 96%;
+        border-radius: 0;
+    }
+
+    .about{
+        width: 108.3%;
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 10px;
+    }
+
+    
+}
